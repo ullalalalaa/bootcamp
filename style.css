@@ -1,0 +1,24 @@
+h1 {
+  padding:10px 10px;
+  color: rgb(255, 255, 255);
+  background: hsla(0, 0%, 26%, 0.78);
+  font-family: arial;
+}
+
+ul li {
+  display: inline;
+  padding: 0 70px 0 70px;
+  background:hsla(195, 86%, 88%, 0.86);
+  color: rgb(10, 9, 13);
+  font-size: 30px;
+
+}
+a {
+  text-decoration: none;
+  color: rgb(10, 9, 13);
+
+}
+
+a:hover {
+  color: rgb(255, 255, 255);
+}
