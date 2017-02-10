@@ -4,113 +4,22 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 40px;
-  margin-top: 0px;
+body {
+  margin: 0;
+  background: url(jgoerugd_y4-john-towner.jpg);
+  background-size: cover;
+}
+p {
+  color: rgb(83, 116, 166);
+  font-size: 24px;
+  text-align: center;
 }
 a {
-  text-decoration: none;
-  color: rgb(10, 9, 13);
+  color: rgb(83, 116, 166);
 }
 
-.header {
-  background: hsla(0, 0%, 26%, 0.78);
-}
-.header img {
-  float: left;
-  width: 100px;
-  height: 100px;
-  margin-left: 20px;
-  margin-top: 10px;
-  border-radius: 40px;
-  background: rgb(255, 255, 255);
-}
-
-.header h1 {
-  margin: 0;
-  position: relative;
-  padding: 40px 40px 40px 150px ;
-  font-size: 40px;
-  font-family: arial;
-  color: rgb(255, 255, 255);
-}
-
-nav {
-  margin-top: 10px;
-  margin-bottom: : 10px;
-  display: table;
-  width: 100%;
-  background:rgb(198, 238, 251);
-}
-
-nav a{
-  display: inline-block;
-  width: calc(100% / 4);
-  font-size: 25px;
-  text-align: center;
-  position: relative;
-}
-
-nav a:after {
-  content: '';
-  display: inline-block;
-  position: absolute;
-  top: 0;
-  right: 0;
-  height: 100%;
-  border-right: 1px dotted rgb(255, 255, 255);
-}
-
-nav a:hover {
-  color: rgb(255, 255, 255);
-}
-
-.main {
-  width: 100%;
-  height: auto;
-  margin-top: 10px;
-}
-
-.content {
-  height: 600px;
-  width: 80%;
-  float: right;
-  border-left: 2px dotted rgba(198, 238, 251, 0.29);
-  border-right: 2px dotted rgba(198, 238, 251, 0.29);
-}
-.content  h2 {
-  font-size: 35px;
-  padding-left: 30px;
-  text-decoration: underline;
-}
-.content  img {
-  float: right;
-  width: 46%;
-  padding: 10px;
-}
-.content  p {
-  padding: 10px;
-  text-align: justify;
-}
-
-.sidebar {
-  float: left;
-  width: 19%;
-}
-.sidebar ul {
-  list-style: none;
-  padding: 0;
-}
-.sidebar ul li {
-  padding-top: 10px;
-  border-bottom: 0.5px solid hsla(0, 0%, 26%, 0.78);
-}
-.sidebar ul li a{
-  padding-top: 9px;
-  padding-right: 56px;
-}
-.sidebar a:hover {
-  background: rgb(198, 238, 251);
+a:hover {
+  color: rgb(254, 254, 254);
 }
 
 @media (max-width: 700px) {
@@ -130,7 +39,7 @@ nav a:hover {
 
   .sidebar {
     width: 100%;
-    display:inline-block;
+
   }
 }
 
